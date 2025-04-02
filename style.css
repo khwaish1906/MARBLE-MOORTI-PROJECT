@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #654321;
+    /* border: 2px solid red; */
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 99px;
+    padding: 0 45px;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: darkblue;
+    /* text-decoration: none; */
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+
+}
+
+.search input {
+    width: 400px;
+    height: 27px;
+    border-radius: 5px;
+    /* margin: 0 16px 0 36px; */
+    /* padding: 0 12px; */
+
+}
+
+.search button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 850;
+    background-color:   #654321;
+}
+
+.slider {
+    width: 31vw;
+    margin: 12px auto;
+    overflow: hidden;
+  
+}
+
+.card {
+    max-width: 91vw;
+    /* background-color: blue; */
+    margin: 37px auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.cards {
+    display: flex;
+    overflow: scroll;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    color: white;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+    color: white;
+}
+
+.card h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+    background-color: #654321;
+}
+
+footer {
+    height: 12vh;
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
